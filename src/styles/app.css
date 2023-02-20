@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.navbar ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.4;
@@ -13,10 +19,20 @@ body {
   font-weight: 400;
 }
 
+.center {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .wrapper {
   width: 100%;
-  padding: 8rem 20px 3rem;
+  padding: 2rem;
 }
+
 .todos {
   max-width: 580px;
   margin: 0 auto;
